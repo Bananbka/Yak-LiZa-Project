@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { SearchX, Home, ArrowLeft } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../../Yak-LiZa-Project/.idea/components/ui/button"
 
 export default function NotFound() {
   return (
@@ -24,7 +24,7 @@ export default function NotFound() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <Button asChild size="lg" className="gap-2">
-            <Link href="/">
+            <Link href="/public">
               <Home className="h-5 w-5" />
               На головну
             </Link>
