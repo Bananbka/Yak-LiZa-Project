@@ -15,6 +15,14 @@ import { useToast } from "@/hooks/use-toast"
 import type { Product } from "@/types/product"
 import { ProductNotFound } from "@/components/products/product-not-found"
 
+
+export async function generateStaticParams() {
+    const products = await fetch('https://api.escuelajs.co/api/v1/products').then(res => res.json())
+
+    return products.slice(0, 20).map((product: any) => ({
+        id: product.id.toString(),
+    }))
+}
 export default function ProductPage({
   params,
 }: {
