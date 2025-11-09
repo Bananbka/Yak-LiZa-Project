@@ -1,4 +1,4 @@
-import { apiClient } from "../../../../Desktop/e-commerce/lib/api/client"
+import { apiClient } from "./client"
 import type { LoginCredentials, RegisterData, AuthTokens, User } from "@/types/auth"
 
 export const authApi = {

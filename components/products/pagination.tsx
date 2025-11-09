@@ -1,9 +1,9 @@
 "use client"
 
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import { Button } from "../ui/button"
-import { useAppDispatch, useAppSelector } from "../../../e-commerce/lib/store/hooks"
-import { setCurrentPage } from "../../../e-commerce/lib/store/slices/productsSlice"
+import { Button } from "@/components/ui/button"
+import { useAppDispatch, useAppSelector } from "@/lib/store/hooks"
+import { setCurrentPage } from "@/lib/store/slices/productsSlice"
 
 export function Pagination() {
   const dispatch = useAppDispatch()

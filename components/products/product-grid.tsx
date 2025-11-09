@@ -1,7 +1,7 @@
 "use client"
 
 import { ProductCard } from "./product-card"
-import type { Product } from "../../../e-commerce/types/product"
+import type { Product } from "@/types/product"
 
 interface ProductGridProps {
   products: Product[]

@@ -1,5 +1,5 @@
-import { apiClient } from "../../../../Desktop/e-commerce/lib/api/client"
-import { publicApiClient } from "../../../../Desktop/e-commerce/lib/api/public-client"
+import { apiClient } from "./client"
+import { publicApiClient } from "./public-client"
 import type { Product, ProductFilters, PaginationParams } from "@/types/product"
 
 type ProductApiParams = {

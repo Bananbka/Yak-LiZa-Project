@@ -1,4 +1,4 @@
-﻿import { publicApiClient } from "../../../../Desktop/e-commerce/lib/api/public-client"
+﻿import { publicApiClient } from "./public-client"
 import type { Product } from "@/types/product"
 
 export const publicProductsApi = {

@@ -3,13 +3,13 @@
 import {useState, useEffect} from "react"
 import {useRouter, useSearchParams} from "next/navigation"
 import {Search, X} from "lucide-react"
-import {Input} from "../ui/input"
-import {Button} from "../ui/button"
-import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "../ui/select"
-import {useAppSelector, useAppDispatch} from "../../../e-commerce/lib/store/hooks"
-import {setFilters} from "../../../e-commerce/lib/store/slices/productsSlice"
-import {fetchCategories} from "../../../e-commerce/lib/store/slices/categoriesSlice"
-import {Slider} from "../ui/slider"
+import {Input} from "@/components/ui/input"
+import {Button} from "@/components/ui/button"
+import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select"
+import {useAppSelector, useAppDispatch} from "@/lib/store/hooks"
+import {setFilters} from "@/lib/store/slices/productsSlice"
+import {fetchCategories} from "@/lib/store/slices/categoriesSlice"
+import {Slider} from "@/components/ui/slider"
 
 interface ProductFiltersProps {
     minPrice?: number

@@ -2,13 +2,13 @@
 
 import { useEffect, useRef } from "react"
 import { useSearchParams } from "next/navigation"
-import { ProductFilters } from "../../Yak-LiZa-Project/.idea/components/products/product-filters"
-import { ProductGrid } from "../../Yak-LiZa-Project/.idea/components/products/product-grid"
-import { Pagination } from "../../Yak-LiZa-Project/.idea/components/products/pagination"
-import { useAppDispatch, useAppSelector } from "../../e-commerce/lib/store/hooks"
-import { fetchProducts, setFilters, fetchAllProducts } from "../../e-commerce/lib/store/slices/productsSlice"
-import { Spinner } from "../../Yak-LiZa-Project/.idea/components/ui/spinner"
-import { Alert, AlertDescription, AlertTitle } from "../../Yak-LiZa-Project/.idea/components/ui/alert"
+import { ProductFilters } from "@/components/products/product-filters"
+import { ProductGrid } from "@/components/products/product-grid"
+import { Pagination } from "@/components/products/pagination"
+import { useAppDispatch, useAppSelector } from "@/lib/store/hooks"
+import { fetchProducts, setFilters, fetchAllProducts } from "@/lib/store/slices/productsSlice"
+import { Spinner } from "@/components/ui/spinner"
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { AlertCircle } from "lucide-react"
 
 export default function HomePage() {

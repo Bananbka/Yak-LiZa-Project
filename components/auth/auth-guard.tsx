@@ -4,8 +4,8 @@ import type React from "react"
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import { useAppSelector, useAppDispatch } from "../../../e-commerce/lib/store/hooks"
-import { loadUserFromStorage } from "../../../e-commerce/lib/store/slices/authSlice"
+import { useAppSelector, useAppDispatch } from "@/lib/store/hooks"
+import { loadUserFromStorage } from "@/lib/store/slices/authSlice"
 import { Loader2 } from "lucide-react"
 
 interface AuthGuardProps {

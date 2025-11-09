@@ -1,5 +1,5 @@
-import { LoginForm } from "../../../Yak-LiZa-Project/.idea/components/auth/login-form"
-import { AuthGuard } from "../../../Yak-LiZa-Project/.idea/components/auth/auth-guard"
+import { LoginForm } from "@/components/auth/login-form"
+import { AuthGuard } from "@/components/auth/auth-guard"
 
 export default function LoginPage() {
   return (

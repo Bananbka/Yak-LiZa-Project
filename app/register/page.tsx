@@ -1,5 +1,5 @@
-import { RegisterForm } from "../../../Yak-LiZa-Project/.idea/components/auth/register-form"
-import { AuthGuard } from "../../../Yak-LiZa-Project/.idea/components/auth/auth-guard"
+import { RegisterForm } from "@/components/auth/register-form"
+import { AuthGuard } from "@/components/auth/auth-guard"
 
 export default function RegisterPage() {
   return (

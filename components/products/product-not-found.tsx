@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { PackageX, Home, Search } from "lucide-react"
-import { Button } from "../ui/button"
+import { Button } from "@/components/ui/button"
 
 export function ProductNotFound() {
   return (
@@ -23,13 +23,13 @@ export function ProductNotFound() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <Button asChild size="lg" className="gap-2">
-            <Link href="/public">
+            <Link href="/">
               <Search className="h-5 w-5" />
               Переглянути каталог
             </Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="gap-2 bg-transparent">
-            <Link href="/public">
+            <Link href="/">
               <Home className="h-5 w-5" />
               На головну
             </Link>
